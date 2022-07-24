@@ -25,7 +25,7 @@ poetry add sqlsl
 
 **"name"** will be used as an attribute of a python object.
 
-**;** - delimiter (subject to change).
+**;** - delimiter.
 
 A `LoaderException` will be raised on a duplicate name.
 
@@ -182,8 +182,3 @@ merged = MergedQueries().merge(*[str_queries, file_queries])
 # or
 merged = MergedQueries().merge(str_queries, file_queries)
 ```
-
-## TODO
-
-- [ ] make `-- name:` the delimiter (allow the example from **IMPORTANT!!!**).
-- [ ] tests
