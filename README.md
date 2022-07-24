@@ -185,5 +185,5 @@ merged = MergedQueries().merge(str_queries, file_queries)
 
 ## TODO
 
-- [] make `-- name:` the delimiter (allow the example from **IMPORTANT!!!**).
-- [] tests
+- [ ] make `-- name:` the delimiter (allow the example from **IMPORTANT!!!**).
+- [ ] tests
